@@ -190,6 +190,7 @@ struct Dictionary{
                     }
     	            delete found;
     	            found = tmp;
+		    if(found && found->isWord) break;
     	        }
             }
     	}
